@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02852443-48cc-4304-951a-c8ec3818681a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/context/BaseAnnotationConfigContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/factory/BaseDefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseApplicationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseComponentScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseEnvironment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseRequestScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseScope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +45,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/factory/BaseDefaultListableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -102,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePostConstruct.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseLifecycle.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BaseLifecycle.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseDependsOn.java" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseEventListener.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAsync.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/factory/BaseDefaultListableBeanFactory.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -175,11 +175,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="653" />
-    <option name="y" value="270" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-151" />
+    <option name="y" value="86" />
     <option name="width" value="1410" />
-    <option name="height" value="897" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -292,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551267422970" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551267681391" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -348,18 +348,18 @@
       <option name="presentableId" value="Default" />
       <updated>1551253917305</updated>
       <workItem from="1551253921894" duration="9808000" />
-      <workItem from="1551264881118" duration="2537000" />
+      <workItem from="1551264881118" duration="2797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12345000" />
+    <option name="totallyTimeSpent" value="12605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="381" y="536" width="1410" height="897" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33185184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23880596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -398,13 +398,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/develop/repository/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BaseBeanFactoryPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -803,6 +796,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aop" />
+        <module name="core-aop" />
+        <module name="core-ioc" />
+        <module name="core-resources" />
+        <module name="core-spel" />
+        <module name="core-vdt" />
         <module name="ioc" />
         <module name="resources" />
         <module name="spel" />

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02852443-48cc-4304-951a-c8ec3818681a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BaseBeanFactoryPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePersistenceAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePrimary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseQualifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAutowired.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,10 +27,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BaseBeanFactoryPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseQualifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="64" lean-forward="true" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+            <state relative-caret-position="209">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,9 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -50,10 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parent/pom.xml" />
-        <option value="$PROJECT_DIR$/common/parent/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/common/framework/core/aop/pom.xml" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/pom.xml" />
         <option value="$PROJECT_DIR$/common/framework/core/resources/pom.xml" />
         <option value="$PROJECT_DIR$/common/framework/core/spel/pom.xml" />
@@ -81,7 +82,6 @@
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePropertyOverrideConfigurer.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseFactoryBean.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePropertyPlaceholderConfigurer.java" />
-        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAutowired.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/aware/BaseApplicationContextAware.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/aware/BaseApplicationEventPublisherAware.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/aware/BaseBeanClassLoaderAware.java" />
@@ -97,6 +97,15 @@
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BaseBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseRequireAnnotationBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BaseBeanFactoryPostProcessor.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BasePersistenceAnnotationBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePersistenceAnnotationBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseInject.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePriority.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseRequire.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAutowired.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseOrder.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePrimary.java" />
+        <option value="$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseQualifier.java" />
       </list>
     </option>
   </component>
@@ -120,10 +129,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="717" />
-    <option name="y" value="115" />
+    <option name="x" value="640" />
+    <option name="y" value="390" />
     <option name="width" value="1410" />
-    <option name="height" value="1032" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,7 +228,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baseFW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baseFW" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551264984047" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551265513094" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -286,18 +301,18 @@
       <option name="presentableId" value="Default" />
       <updated>1551253917305</updated>
       <workItem from="1551253921894" duration="9808000" />
-      <workItem from="1551264881118" duration="102000" />
+      <workItem from="1551264881118" duration="630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9910000" />
+    <option name="totallyTimeSpent" value="10438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="717" y="115" width="1410" height="1032" extended-state="0" />
+    <frame x="640" y="390" width="1410" height="952" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2562963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -336,92 +351,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/context/BaseGenericContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/context/BaseFileSystemContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/repository/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#1542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseConfiguration.java" />
-    <entry file="jar://D:/develop/repository/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/repository/org/springframework/spring-aop/4.3.22.RELEASE/spring-aop-4.3.22.RELEASE.jar!/org/springframework/aop/framework/ProxyFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6382">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseProxyFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/repository/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/custom/BaseInitBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop/repository/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE.jar!/org/springframework/beans/factory/DisposableBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/jdk/src.zip!/javax/annotation/PostConstruct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -475,16 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseDependsOn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -517,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePropertyPlaceholderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -545,16 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAutowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,6 +598,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="64" lean-forward="true" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/repository/org/springframework/spring-orm/4.3.22.RELEASE/spring-orm-4.3.22.RELEASE.jar!/org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1653">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseInject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePriority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePersistenceAnnotationBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseDependsOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseRequire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseAutowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/repository/org/springframework/spring-core/4.3.22.RELEASE/spring-core-4.3.22.RELEASE.jar!/org/springframework/core/annotation/Order.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/repository/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE.jar!/org/springframework/context/annotation/Primary.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BasePrimary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/repository/org/springframework/spring-beans/4.3.22.RELEASE/spring-beans-4.3.22.RELEASE.jar!/org/springframework/beans/factory/annotation/Qualifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/framework/core/ioc/src/main/java/www/xieguopei/com/handler/BaseQualifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
